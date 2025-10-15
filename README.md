@@ -37,22 +37,23 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 my-app/
-├── .next/                # Auto-generated build output (you can delete if broken)
-├── app/                  # Next.js App Router pages (like dashboard, auth, etc.)
+├── .next/                # Auto-generated build output (safe to delete if broken)
+├── app/                  # Next.js App Router pages (dashboard, auth, etc.)
 ├── components/           # Reusable React components (Charts, Sidebar, etc.)
-├── lib/                  # Helper utilities (e.g. prisma.ts, auth.ts)
+├── lib/                  # Helper utilities (e.g., prisma.ts, auth.ts)
 ├── node_modules/         # Installed dependencies
 ├── prisma/               # Prisma schema + migrations
 │   ├── schema.prisma
-│   └── dev.db            # (will be created after npx prisma db push)
-├── public/               # Static files (images, icons, etc.)
-├── stack/                # Optional folder (maybe from course lessons)
-├── .env                  # Environment variables (your DATABASE_URL etc.)
+│   └── dev.db            # Created after `npx prisma db push`
+├── public/               # Static assets (images, icons, etc.)
+├── stack/                # Optional course/lesson files
+├── .env                  # Environment variables (e.g., DATABASE_URL)
 ├── .gitignore
 ├── eslint.config.mjs
 ├── next.config.ts
 ├── package.json
 ├── postcss.config.mjs
 ├── README.md
-├── tailwind.config.ts (if present)
+├── tailwind.config.ts    # If using Tailwind
 └── tsconfig.json
+
