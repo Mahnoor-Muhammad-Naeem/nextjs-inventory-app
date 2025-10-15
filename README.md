@@ -34,3 +34,25 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+my-app/
+├── .next/                # Auto-generated build output (you can delete if broken)
+├── app/                  # Next.js App Router pages (like dashboard, auth, etc.)
+├── components/           # Reusable React components (Charts, Sidebar, etc.)
+├── lib/                  # Helper utilities (e.g. prisma.ts, auth.ts)
+├── node_modules/         # Installed dependencies
+├── prisma/               # Prisma schema + migrations
+│   ├── schema.prisma
+│   └── dev.db            # (will be created after npx prisma db push)
+├── public/               # Static files (images, icons, etc.)
+├── stack/                # Optional folder (maybe from course lessons)
+├── .env                  # Environment variables (your DATABASE_URL etc.)
+├── .gitignore
+├── eslint.config.mjs
+├── next.config.ts
+├── package.json
+├── postcss.config.mjs
+├── README.md
+├── tailwind.config.ts (if present)
+└── tsconfig.json
