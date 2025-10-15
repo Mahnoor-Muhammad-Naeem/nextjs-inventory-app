@@ -57,3 +57,68 @@ my-app/
 ├── tailwind.config.ts    # If using Tailwind
 └── tsconfig.json
 
+
+
+my-app/
+├─ .next/                       # build output (auto-generated)
+├─ app/                         # Next.js App Router
+│  ├─ dashboard/
+│  │  └─ page.tsx
+│  ├─ api/
+│  │  └─ products/
+│  │     └─ route.ts
+│  └─ layout.tsx
+├─ components/                  # reusable UI
+│  ├─ products-chart.tsx
+│  └─ sidebar.tsx
+├─ lib/                         # server/utils
+│  ├─ prisma.ts
+│  └─ auth.ts
+├─ prisma/                      # Prisma ORM
+│  ├─ schema.prisma
+│  └─ migrations/               # (created by migrate; optional if using db push)
+├─ public/                      # static assets
+├─ stack/                       # course/notes (optional)
+├─ .env                         # env vars (e.g. DATABASE_URL)
+├─ .gitignore
+├─ eslint.config.mjs
+├─ next.config.ts
+├─ package.json
+├─ package-lock.json
+├─ postcss.config.mjs
+├─ README.md
+├─ tailwind.config.ts
+└─ tsconfig.json
+
+
+
+my-app/
+├─ .next/                       # build output (auto-generated)
+├─ app/                         # Next.js App Router
+│  ├─ dashboard/
+│  │  └─ page.tsx
+│  ├─ api/
+│  │  └─ products/
+│  │     └─ route.ts
+│  └─ layout.tsx
+├─ components/                  # reusable UI
+│  ├─ products-chart.tsx
+│  └─ sidebar.tsx
+├─ lib/                         # server/utils
+│  ├─ prisma.ts
+│  └─ auth.ts
+├─ prisma/                      # Prisma ORM
+│  ├─ schema.prisma
+│  └─ migrations/
+├─ public/                      # static assets
+├─ stack/                       # optional
+├─ .env                         # env vars (e.g., DATABASE_URL)
+├─ .gitignore
+├─ eslint.config.mjs
+├─ next.config.ts
+├─ package.json
+├─ package-lock.json
+├─ postcss.config.mjs
+├─ README.md
+├─ tailwind.config.ts
+└─ tsconfig.json
